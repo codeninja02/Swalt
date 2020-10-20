@@ -28,6 +28,16 @@ By using this very lightweight library, you can show the custom alerts just by a
 $ npm install swalt
 ```
 
+## Usage
+
+```javascript
+import swalt from 'swalt';
+
+swalt("Hello world!");
+```
+
+## Templates
+
 ### Social Links
 
 - [INSTAGRAM](https://www.instagram.com/codeninja02/)
