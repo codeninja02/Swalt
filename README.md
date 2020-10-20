@@ -38,6 +38,18 @@ swalt("Hello world!");
 
 ## Templates
 
+#### Normal Swalt
+```javascript
+swalt("Hello world!");
+```
+
+#### Dark Mode Swalt
+```javascript
+swalt("Hello World", {
+  mode: "dark"
+});
+```
+
 ### Social Links
 
 - [INSTAGRAM](https://www.instagram.com/codeninja02/)
