@@ -50,6 +50,30 @@ swalt("Hello World", {
 });
 ```
 
+#### Swalt with Icon
+```javascript
+swalt("Hello World", {
+  showIcon: true
+});
+```
+
+#### Swalt with Custom Title
+```javascript
+swalt("Hello World", {
+  title: "My Title"
+});
+```
+
+#### Swalt with Input
+```javascript
+swalt("Hello World", {
+  input: true
+});
+```
+
+Get more templates at -
+![Swalt Website](https://swalt.netlify.app)
+
 ### Social Links
 
 - [INSTAGRAM](https://www.instagram.com/codeninja02/)
