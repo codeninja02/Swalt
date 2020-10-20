@@ -22,21 +22,11 @@ By using this very lightweight library, you can show the custom alerts just by a
 
 - [VIEW DOCS AND DEMO](https://swalt.netlify.app)
 
-## Setup
+## Installation
 
-<!--
-Just set your firebase configurations in the file `\js\script.js)` on line `86`
-
-```sh
-  var config = {
-    apiKey: "<YOUR_API_KEY>",
-    authDomain: '<AUTH_DOMAIN>',
-    databaseURL: '<DATABASE_URL>',
-    storageBucket: '<BUCKET>',
-    messagingSenderId: '<SENDER_ID>'
-  }
+```bash
+$ npm install swalt
 ```
--->
 
 ### Social Links
 
