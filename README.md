@@ -20,7 +20,7 @@ By using this very lightweight library, you can show the custom alerts just by a
 
 <br><br>
 
-![Swalt Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/Alert7482.png?alt=media&token=38a13a91-f620-4ec7-a7a9-4bedb8409064)
+![Swalt Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/Swalt.png?alt=media&token=21ca32b3-0c54-40f9-b92f-b48ec0906877)
 
 <br><br>
 
