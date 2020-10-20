@@ -24,10 +24,10 @@ By using this very lightweight library, you can show the custom alerts just by a
 
 ## Table of Contents
 
-- ![Installation](https://github.com/codeninja02/Swalt#installation)
-- ![Usage](https://github.com/codeninja02/Swalt#usage)
-- ![Templates](https://github.com/codeninja02/Swalt#templates)
-- ![Social Links](https://github.com/codeninja02/Swalt#social-linkshttps://swalt.netlify.app)
+- [Installation](https://github.com/codeninja02/Swalt#installation)
+- [Usage](https://github.com/codeninja02/Swalt#usage)
+- [Templates](https://github.com/codeninja02/Swalt#templates)
+- [Social Links](https://github.com/codeninja02/Swalt#social-linkshttps://swalt.netlify.app)
 
 ## Installation
 
@@ -79,7 +79,7 @@ swalt("Hello World", {
 ```
 
 Get more templates at -
-- ![Swalt Website](https://swalt.netlify.app)
+- [Swalt Website](https://swalt.netlify.app)
 
 ### Social Links
 
