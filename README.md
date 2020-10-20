@@ -18,11 +18,7 @@
 
 By using this very lightweight library, you can show the custom alerts just by a single line line of code.
 
-<br><br>
-
-![Swalt Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/Swalt.png?alt=media&token=21ca32b3-0c54-40f9-b92f-b48ec0906877)
-
-<br><br>
+![Swalt Preview](https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/swalt2%201.png?alt=media&token=8d3969b3-f0e0-4db7-83f6-241104e7bd75)
 
 - [VIEW DOCS AND DEMO](https://swalt.netlify.app)
 
