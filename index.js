@@ -141,6 +141,3 @@ document.getElementById("alertBtn").addEventListener("click", function(e) {
     }, 400);
     swaltRef.status = false;
 });
-
-module.exports.swalt = swalt;
-
