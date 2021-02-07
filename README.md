@@ -11,7 +11,7 @@
 [![MIT License][license-shield]][license-url]
 -->
 
-<img src="https://firebasestorage.googleapis.com/v0/b/scholar-engine-32b26.appspot.com/o/Frame%204.png?alt=media&token=497b4a62-56e6-4ea2-91a7-a6bc26cb2b2a" align="right"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/instagram-clone-react-77019.appspot.com/o/alertIcon2.png?alt=media&token=ebf0b613-8592-4a72-9e3c-2428e871981e" align="right"/>
 
 # Swalt [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/codeninja02)
 > An amazing replacement for Javascript's default alerts
