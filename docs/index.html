@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swalt | Home</title>
+
+    <meta name="description" content="Turbo Browser is a Simple, Fast, Powerful and Secure Internet Browser.">
+
+    <meta property="og:title" content="Swalt | Home"/>
+    <meta property="og:url" content="https://swalt.netlify.app/"/>
+    <meta property="og:description" content="By using this lightweight library, you can show custom alerts in just a few lines of code." />
+
+    <link rel="icon" href="favicon\favicon.svg">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+
+    <article class="hidden">
+        <h1>
+            Swalt | Modern replacement for alerts
+        </h1>
+        <p>
+            By using this lightweight library, you can show custom alerts in just a few lines of code.
+        </p>
+        <img src="favicon\favicon.svg" alt="Swalt">
+    </article>
+
+<div class="super-body" style="opacity: 0.98;">
+    <div class="section-1-super">
+        <div class="section-1">
+
+            <div class="alert-big-icon-1">
+                <!-- <ion-icon class="alert-big-icon-1-ICON" name="notifications-outline"></ion-icon> -->
+            </div>
+            <div class="alert-big-icon-2">
+                <!-- <ion-icon class="alert-big-icon-1-ICON" name="notifications-outline"></ion-icon> -->
+            </div>
+
+            <div class="section-1-heading">
+                <ion-icon class="section-1-bell-icon" name="notifications-outline"></ion-icon>
+                Swalt<span style="font-size: 28px;
+                font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;color: white;text-transform: lowercase;font-weight: 600;letter-spacing: 1px;margin-left: 1px;">.js</span>
+            </div>
+            <div class="section-1-paragraph-1">
+                An alternate Javascript library to show awesome alerts on your app
+            </div>
+            <div class="section-1-btn-c">
+                <div id="showDemoAlert1" class="section-1-btn-1">
+                    Show Demo Alert
+                </div>
+                <div id="showIntergration1" class="section-1-btn-2">
+                    <div class="s-1-b-2-A">
+                        Integration
+                    </div>
+                    <div class="s-1-b-2-B">
+                        <ion-icon class="s-1-b-2-B-ICON" name="chevron-forward-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-2-super">
+        <div class="section-2">
+            <div class="section-2-heading">Installation</div>
+            <div class="section-2-paragraph">
+                Swalt can be used either by CDN or by NPM. CDNs are available in raw as well as minified version.
+            </div>
+
+            <div class="section-2-paragraph-2">
+                By NPM
+            </div>
+            <div class="code npm">
+                <span class="npm-icon">$</span> npm install swalt
+            </div>
+            <div class="s-2-p-2-B">
+                Then, simply import it into your application:
+            </div>
+            <div class="code npm s-2-c-2">
+                <span style="color:rgb(197 165 197);">import</span> swalt <span style="color:rgb(197 165 197);">from</span> <span style="color: rgb(141 200 145);">"swalt"</span>;
+            </div>
+
+            <div class="section-2-paragraph-4">
+                By CDN
+            </div>
+            <div class="s-2-p-2-B">
+                Just place one of the following script either in your head or body.
+            </div>
+            
+            <div class="code npm">
+                <pre>&lt;<span style="color: rgb(95 182 211);">script</span> <span style="color: rgb(197 165 197);">src</span>=<span style="color: rgb(141 200 145)">"https://rawcdn.githack.com/codeninja02/swalt/97a4a2eb9ac34bc10c420083dfd999bb52c7c254/swalt.js"</span>&gt;&lt;/<span style="color: rgb(95 182 211);">script</span>&gt;</pre>
+            </div>
+            <div class="copy-btn copy-btn-1 btn" data-clipboard-target="#bar1">
+                Copy script
+            </div>
+
+            <div class="code npm">
+                <pre>&lt;<span style="color: rgb(95 182 211);">script</span> <span style="color: rgb(197 165 197);">src</span>=<span style="color: rgb(141 200 145)">"https://rawcdn.githack.com/codeninja02/swalt/97a4a2eb9ac34bc10c420083dfd999bb52c7c254/swalt.min.js"</span>&gt;&lt;/<span style="color: rgb(95 182 211);">script</span>&gt;</pre>
+            </div>
+            <div class="copy-btn copy-btn-2 btn" data-clipboard-target="#bar2">
+                Copy minified script
+            </div>
+        </div>
+    </div>
+
+    <div class="copy-buttons">
+        <textarea id="bar1"><script src="https://rawcdn.githack.com/codeninja02/swalt/97a4a2eb9ac34bc10c420083dfd999bb52c7c254/swalt.js"></script></textarea>
+        <textarea id="bar2"><script src="https://rawcdn.githack.com/codeninja02/swalt/97a4a2eb9ac34bc10c420083dfd999bb52c7c254/swalt.min.js"></script></textarea>
+
+        <textarea id="bar3">swalt ( "Hello World! This is a sample swalt template." ) ;</textarea>
+
+<textarea id="bar4">swalt ( "Hello World! This is a sample swalt template.", {
+    input: true
+});</textarea>
+
+<textarea id="bar5">swalt ( "Hello World! This is a sample swalt template.", {
+    showIcon: true
+});</textarea>
+
+<textarea id="bar6">swalt ( "Hello World! This is a sample swalt template.", {
+    mode: "dark"
+});</textarea>
+
+<textarea id="bar7">swalt ( "Hello World! This is a sample swalt template.", {
+    title: "My Custom Title"
+});</textarea>
+
+<textarea id="bar8">swalt ( "Hello World! This is a sample swalt template.", {
+    btnValue: "My Custom Button"
+});</textarea>
+    </div>
+
+    <div class="section-3-super section-3-BBBB">
+        <div class="section-3">
+            <div class="section-3-heading">Usage</div>
+            <div class="section-2-paragraph">
+                Swalt provides some beautiful templates for you to display the alert with input, icon, title and with different themes.
+            </div>
+
+            <div class="section-2-paragraph-2">
+                Basic Swalt
+            </div>
+            <div class="code-2 npm-2">
+                swalt ( <span style="color: rgb(141 200 145);">"Hello World! This is a sample swalt template."</span> ) ;
+            </div>
+            <div class="copy-and-run-2">
+                <div class="copy-btn-8 btn" data-clipboard-target="#bar3">
+                    Copy code
+                </div>
+                <div class="copy-btn-8 btn" id="sBtn1">
+                    Run <ion-icon class="copy-btn-8-icon" name="play"></ion-icon>
+                </div>
+            </div>
+
+<hr class="s2">
+
+            <div class="section-2-paragraph-2">
+                Swalt with Input [boolean]
+            </div>
+            <div class="s-3-minip-1">
+                You can also change the default value of the input by passing the argument <kbd class="s3minip1-kbd">defaultValue</kbd> <span class="dt-2">[string]</span>. The value of the placeholder can be changed by passing the argument <kbd class="s3minip1-kbd">inputPlaceholder</kbd> <span class="dt-2">[string]</span>.
+            </div>
+            <div class="code-2 npm-2">
+                swalt ( <span style="color: rgb(141 200 145);">"Hello World! This is a sample swalt template."</span>, {<br>&emsp;input: true<br>} ) ;
+            </div>
+            <div class="copy-and-run-2">
+                <div class="copy-btn-8 btn" data-clipboard-target="#bar4">
+                    Copy code
+                </div>
+                <div class="copy-btn-8 btn" id="sBtn2">
+                    Run <ion-icon class="copy-btn-8-icon" name="play"></ion-icon>
+                </div>
+            </div>
+
+<hr class="s2">
+
+            <div class="section-2-paragraph-2">
+                Swalt with Icon [boolean]
+            </div>
+            <div class="s-3-minip-1">
+                A big thanks to <a href="https://codepen.io/iamnuxt/pen/vZoJPa" class="s-3-minip-1-href-1" target="_blank">Alexandre Chopin</a> for his awesome <a href="https://codepen.io/iamnuxt" class="s-3-minip-1-href-1" target="_blank">SweetAlert Warning Icon</a> for the icon.
+            </div>
+            <div class="code-2 npm-2">
+                swalt ( <span style="color: rgb(141 200 145);">"Hello World! This is a sample swalt template."</span>, {<br>&emsp;showIcon: true<br>} ) ;
+            </div>
+            <div class="copy-and-run-2">
+                <div class="copy-btn-8 btn" data-clipboard-target="#bar5">
+                    Copy code
+                </div>
+                <div class="copy-btn-8 btn" id="sBtn3">
+                    Run <ion-icon class="copy-btn-8-icon" name="play"></ion-icon>
+                </div>
+            </div>
+
+<hr class="s2">
+
+            <div class="section-2-paragraph-2">
+                Swalt in Dark Mode [string]
+            </div>
+            <div class="s-3-minip-1">
+                This argument only accepts value <kbd class="s3minip1-kbd">dark</kbd> and <kbd class="s3minip1-kbd">light</kbd>.
+            </div>
+            <div class="code-2 npm-2">
+                swalt ( <span style="color: rgb(141 200 145);">"Hello World! This is a sample swalt template."</span>, {<br>&emsp;mode: "dark"<br>} ) ;
+            </div>
+            <div class="copy-and-run-2">
+                <div class="copy-btn-8 btn" data-clipboard-target="#bar6">
+                    Copy code
+                </div>
+                <div class="copy-btn-8 btn" id="sBtn4">
+                    Run <ion-icon class="copy-btn-8-icon" name="play"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-3-super section-3-CCCC">
+        <div class="section-3">
+            <div class="section-3-heading">Advanced Examples</div>
+            <div class="section-2-paragraph">
+                Here are some advanced references and events which can be used with swalt.
+            </div>
+
+            <div class="section-2-paragraph-2">
+                Swalt with Custom Title [string]
+            </div>
+            <div class="s-3-minip-1">
+                Just replace <kbd class="s3minip1-kbd">My Custom Title</kbd> with your own desired title to set a custom title for the swalt.
+            </div>
+            <div class="code-2 npm-2">
+                swalt ( <span style="color: rgb(141 200 145);">"Hello World! This is a sample swalt template."</span>, {<br>&emsp;title: "My Custom Title"<br>} ) ;
+            </div>
+            <div class="copy-and-run-2">
+                <div class="copy-btn-8 btn" data-clipboard-target="#bar7">
+                    Copy code
+                </div>
+                <div class="copy-btn-8 btn" id="sBtn5">
+                    Run <ion-icon class="copy-btn-8-icon" name="play"></ion-icon>
+                </div>
+            </div>
+
+<hr class="s2">
+
+            <div class="section-2-paragraph-2">
+                Swalt with Custom Button [string]
+            </div>
+            <div class="s-3-minip-1">
+                Just replace <kbd class="s3minip1-kbd">My Custom Button</kbd> with your own desired text for the "Close" Button.
+            </div>
+            <div class="code-2 npm-2">
+                swalt ( <span style="color: rgb(141 200 145);">"Hello World! This is a sample swalt template."</span>, {<br>&emsp;btnValue: "My Custom Button"<br>} ) ;
+            </div>
+            <div class="copy-and-run-2">
+                <div class="copy-btn-8 btn" data-clipboard-target="#bar8">
+                    Copy code
+                </div>
+                <div class="copy-btn-8 btn" id="sBtn6">
+                    Run <ion-icon class="copy-btn-8-icon" name="play"></ion-icon>
+                </div>
+            </div>
+
+<hr class="s2">
+<br>
+
+            <div class="section-2-paragraph-2">
+                References
+            </div>
+
+            <div class="s-3-minip-1">
+                Get reference to the swalt element by the <kbd class="s3minip1-kbd">swaltRef</kbd> object. Below is a given table to get properties of the <kbd class="s3minip1-kbd">swaltRef</kbd> object -
+            </div>
+
+            <table>
+                <tr>
+                    <th>Property</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>swaltRef.element</td>
+                    <td>Object</td>
+                    <td>Gets input element of the swalt</td>
+                </tr>
+                <tr>
+                    <td>swaltRef.value</td>
+                    <td>String</td>
+                    <td>Gets value of the swalt</td>
+                </tr>
+                <tr>
+                    <td>swaltRef.status</td>
+                    <td>Boolean</td>
+                    <td>Gets status of the swalt if it is open or closed</td>
+                </tr>
+            </table>
+            
+<hr class="s2">
+<br>
+
+            <div class="section-2-paragraph-2">
+                Events
+            </div>
+
+            <div class="s-3-minip-1">
+                There are also events to indicate if an action happens to the swalt. The events can be passed to the <kbd class="s3minip1-kbd">swaltRef.element</kbd> object.
+            </div>
+
+            <table>
+                <tr>
+                    <th>Event</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>swaltBtnClicked</td>
+                    <td>Swalt "Close" button clicked</td>
+                </tr>
+                <tr>
+                    <td>swaltClosed</td>
+                    <td>Swalt Closed</td>
+                </tr>
+            </table>
+<br>
+            <div class="section-2-paragraph-2">
+                Example on Event -
+            </div>
+            <div class="code-2 npm-2">
+                swaltRef.element.addEventListener ( <span style="color: rgb(141 200 145);">"swaltBtnClicked"</span>, function (<span style="color: rgb(174 177 184)">e</span>) {<br>
+                    &emsp;console.log( swaltRef.value );<br>
+                } ) ;
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-about-super">
+        <div class="section-about">
+            <div class="section-about-heading">About</div>
+            <div class="section-2-paragraph" style="font-weight: 500;">
+                Swalt was originally developed by @Programmer as a open source lightweight replacement for default javascript alerts. Swalt makes popup messages easier and prettier.
+            </div>
+            <div class="btn-about-c">
+                <a href="https://github.com/codeninja02/swalt" target="_blank">
+                <div class="btn-about-1"><ion-icon class="btn-about-icon" name="logo-github"></ion-icon> View on Gitub</div>
+                </a>
+                <a href="https://www.npmjs.com/package/swalt" target="_blank" class="btn-about-1">
+                <div><ion-icon class="btn-about-icon" name="logo-npm"></ion-icon> View on Npm</div>
+                </a>
+            </div>
+            <!-- <div class="section-2-paragraph-2" style="font-size: 18px;">
+                Social Accounts
+            </div> -->
+        </div>
+    </div>
+
+    <div class="footer">
+        Made with <ion-icon class="footer-icon" name="heart"></ion-icon> by Programmer
+    </div>
+</div>
+
+<div class="nav" style="opacity: 0.95; backdrop-filter: blur(10px);">
+    <div class="nav-blur-bg-2"></div>
+    <div class="nav-desktop">
+        <div class="nav-flex-2">
+            <a href="">
+                <div class="nav-1 nav-MAIN">
+                    <span class="nav-MAIN-icon-span"><ion-icon class="nav-MAIN-icon" name="notifications"></ion-icon></span>Swalt<span style="font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;color: white;text-transform: lowercase;font-weight: 600;letter-spacing: 1px;margin-left: 1px;">.js</span>
+                </div>
+            </a>
+        </div>
+        <div class="nav-flex-1">
+            <div class="nav-1 nav-item">
+                Home
+            </div>
+            <div class="nav-2 nav-item">
+                Installation
+            </div>
+            <div class="nav-3 nav-item">
+                Usage
+            </div>
+            <div class="nav-4 nav-item">
+                Advanced Examples
+            </div>
+            <div class="nav-5 nav-item">
+                About
+            </div>
+        </div>
+        <div id="sideMenuBTN" class="nav-mobile">
+            <div class="nav-mobile-icon">
+                <ion-icon class="nav-icon" name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sideMenu" class="side-menu">
+    <div id="closeSideMenu" class="s-heading">
+        <ion-icon class="s-heading-icon" name="arrow-up-outline"></ion-icon>
+    </div>
+    <div class="s-items">
+        <div class="s-item s-item-1">
+            <ion-icon class="s-item-icon" name="home-outline"></ion-icon>Home
+        </div>
+        <div class="s-item s-item-2">
+            <ion-icon class="s-item-icon" name="code-download-outline"></ion-icon>Installation
+        </div>
+        <div class="s-item s-item-3">
+            <ion-icon class="s-item-icon" name="play-outline"></ion-icon>Usage
+        </div>
+        <div class="s-item s-item-4">
+            <ion-icon class="s-item-icon" name="albums-outline"></ion-icon>Advanced Examples
+        </div>
+        <div class="s-item s-item-5">
+            <ion-icon class="s-item-icon" name="information-outline"></ion-icon>About
+        </div>
+        <a href="https://www.instagram.com/codeninja02/" style="color: #ebebeb;" target="_blank">
+        <div class="s-item s-item-6 s-minor">
+            <ion-icon class="s-item-icon" name="logo-github"></ion-icon>Github
+        </div>
+        </a>
+        <a href="https://www.instagram.com/codeninja02/" style="color: #ebebeb;" target="_blank">
+        <div class="s-item s-item-7 s-minor">
+            <ion-icon class="s-item-icon" name="logo-instagram"></ion-icon>Instagram
+        </div>
+        </a>
+    </div>
+</div>
+
+<!-- Swalt Library -->
+<script src="https://rawcdn.githack.com/codeninja02/swalt/97a4a2eb9ac34bc10c420083dfd999bb52c7c254/swalt.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
